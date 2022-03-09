@@ -1,6 +1,6 @@
 # GarcelCode
 
-You can find the web deployed [Right here](https://garcelcode.github.io/code/)
+You can find the web deployed [Right here](https://garcelcode.github.io/gcode/)
 
 ### `content`
 
