@@ -1,25 +1,9 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import { FaReact } from 'react-icons/fa'
+import Card from "./components/Card";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code className="text-2xl">src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React <FaReact/>
-        </a>
-      </header>
+    <div className="flex flex-col justify-center items-center min-h-screen bg-gc-primary p-5">
+      <Card/>
     </div>
   );
 }
