@@ -9,8 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="" element={<App />} />
-        <Route path="*" element={<h2>No se encontró la página</h2>}/>
+        <Route path="/" element={<App />} />
       </Routes>
     </Router>
   </React.StrictMode>,
