@@ -6,7 +6,7 @@ import {
   SiVisualstudiocode,
   SiTailwindcss,
   SiReact,
-  SiHeroku,
+  SiXampp,
 } from "react-icons/si";
 
 export const topics = [
@@ -47,7 +47,7 @@ export const topics = [
   },
   {
       id:7,
-      name:"Heroku",
-      icon:<SiHeroku/>
+      name:"Xampp",
+      icon:<SiXampp/>
   }
 ];
